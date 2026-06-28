@@ -1,0 +1,283 @@
+/*======================================
+        AVATAR: THE WAY OF WATER
+            By: Mayra #170501
+======================================*/
+
+/* Background */
+
+body {
+    background:
+        linear-gradient(
+            rgba(2,25,42,.55),
+            rgba(0,60,95,.65)
+        ),
+        url("https://raw.githubusercontent.com/cajolaismylia2-collab/wolvden-imagesfile-/main/ea620d858701a63434902d6244022bc9.jpg")
+        center center fixed !important;
+
+    background-size: cover !important;
+
+    color: #dffcff !important;
+}
+
+/* Main Content */
+
+#main,
+.container.main,
+.container {
+    background: transparent !important;
+}
+
+/* Cards & Panels */
+
+.card,
+.table,
+.box,
+.alert,
+.breadcrumb,
+.feature,
+.dropdown-menu,
+.modal-content {
+
+    background: rgba(6,42,70,.78) !important;
+
+    border: 1px solid rgba(90,220,255,.35) !important;
+
+    box-shadow:
+        0 0 20px rgba(0,180,255,.30),
+        0 0 45px rgba(0,80,130,.45) !important;
+
+    backdrop-filter: blur(6px);
+}
+
+/* Headers */
+
+.card-header,
+th {
+
+    background:
+        linear-gradient(
+            90deg,
+            #00b6d8,
+            #004a72
+        ) !important;
+
+    color: #f0ffff !important;
+
+    border: none !important;
+
+    text-shadow:
+        0 0 10px #7deeff,
+        0 0 22px #00d4ff;
+}
+
+/* Tables */
+
+.table {
+    color: #dffcff !important;
+}
+
+.table td,
+.table th {
+    border-color: rgba(120,235,255,.18) !important;
+}
+
+/* Navigation */
+
+.navbar {
+
+    background: rgba(0,35,58,.92) !important;
+
+    border-bottom: 1px solid rgba(120,235,255,.35) !important;
+
+    box-shadow: 0 0 25px rgba(0,180,255,.35);
+}
+
+.navbar a,
+.nav-link {
+    color: #dffcff !important;
+}
+
+.navbar a:hover,
+.nav-link:hover {
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 12px #8ef4ff,
+        0 0 25px #00d9ff;
+}
+
+/* Text */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: #f4ffff !important;
+
+    text-shadow:
+        0 0 10px #8ff6ff,
+        0 0 24px #00d5ff;
+}
+
+p,
+span,
+div,
+td {
+
+    color: #dffcff !important;
+}
+
+/* Links */
+
+a {
+    color: #8ceeff !important;
+}
+
+a:hover {
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 10px #8ef4ff,
+        0 0 22px #00dfff;
+}
+
+/* Buttons */
+
+.btn,
+button,
+input[type="submit"] {
+
+    background:
+        linear-gradient(
+            180deg,
+            #00c7e8,
+            #006ca0
+        ) !important;
+
+    border: 1px solid #79eeff !important;
+
+    color: white !important;
+
+    box-shadow:
+        0 0 18px rgba(0,220,255,.45);
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+
+    background:
+        linear-gradient(
+            #46e9ff,
+            #009fd0
+        ) !important;
+
+    box-shadow:
+        0 0 35px rgba(80,240,255,.75);
+
+    color: white !important;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select {
+
+    background: rgba(4,35,55,.88) !important;
+
+    border: 1px solid rgba(120,235,255,.35) !important;
+
+    color: #f0ffff !important;
+}
+
+/* Footer */
+
+footer {
+
+    background: rgba(0,35,58,.92) !important;
+
+    border-top: 1px solid rgba(120,235,255,.35) !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #03263c;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:
+        linear-gradient(
+            #47ebff,
+            #0077a8
+        );
+
+    border-radius: 20px;
+}
+
+/* Wolvden Den Boxes */
+
+.left,
+.right,
+.cave-grid,
+.den-box,
+.user-box {
+
+    background: rgba(5,40,65,.78) !important;
+
+    border: 1px solid rgba(120,235,255,.30) !important;
+
+    box-shadow:
+        0 0 20px rgba(0,180,255,.30);
+}
+
+/* Hover Effects */
+
+.card:hover,
+.table:hover {
+
+    box-shadow:
+        0 0 35px rgba(120,240,255,.60),
+        0 0 60px rgba(0,170,255,.35) !important;
+}
+
+/* Credit */
+
+html::before {
+    content: "Made by: Mayra #170501";
+    position: fixed;
+    top: 10px;
+    right: 15px;
+
+    padding: 6px 12px;
+
+    background: rgba(0,45,75,.88);
+
+    border: 1px solid rgba(120,235,255,.35);
+
+    border-radius: 10px;
+
+    color: #e7ffff;
+
+    font-size: 12px;
+
+    text-shadow:
+        0 0 8px #8ef4ff;
+
+    box-shadow:
+        0 0 15px rgba(0,180,255,.40);
+
+    z-index: 9999;
+
+    pointer-events: none;
+}
